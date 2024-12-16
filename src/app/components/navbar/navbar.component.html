@@ -1,0 +1,23 @@
+<header>
+    <div class="logo">
+        <img src="assets/logo.png" alt="PAJĘCZE SIECI">
+        <div class="logo-text">
+            <h1>Kaliszkowice Kaliskie</h1>
+            <p>HODOWLA OWCZARKÓW NIEMIECKICH</p>
+        </div>
+    </div>
+    <nav>
+        <ul [class.open]="menuOpen">
+            <li><a routerLink="/">Strona Główna</a></li>
+            <li><a routerLink="/about">Nasza Hodowla</a></li>
+            <li><a routerLink="/galeria">Galeria</a></li>
+            <li><a routerLink="/nasze-psy">Nasze psy</a></li>
+            <li><a routerLink="/nasze-suki">Nasze suki</a></li>
+            <li><a routerLink="/mioty">Mioty</a></li>
+            <li><a routerLink="/na-sprzedaz">Na sprzedaż</a></li>
+            <li><a routerLink="/kontakt">Kontakt</a></li>
+        </ul>
+        <button class="menu-toggle" (click)="toggleMenu()">&#9776;</button>
+    </nav>
+    
+</header>
