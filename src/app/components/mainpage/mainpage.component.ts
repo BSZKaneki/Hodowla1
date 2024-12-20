@@ -4,7 +4,7 @@ import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-mainpage',
-  imports: [NgOptimizedImage],
+  imports: [],
   templateUrl: './mainpage.component.html',
   styleUrl: './mainpage.component.css'
 })
